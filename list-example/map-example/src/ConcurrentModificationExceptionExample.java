@@ -10,7 +10,7 @@ import java.util.Map;
 
             Map<String, Long> phoneBook = new HashMap<String, Long>();
 
-            phoneBook.put("Vikram",8149101254L);
+            phoneBook.put("komal",8149101254L);
             phoneBook.put("Mike",9020341211L);
             phoneBook.put("Jim",7788111284L);
             System.out.println(phoneBook);
@@ -20,7 +20,7 @@ import java.util.Map;
             while (keyIterator.hasNext()){
                 String key = keyIterator.next();
                 System.out.println("key = "+ key);
-                if ("Vikram".equals(key)){
+                if ("komal".equals(key)){
                     keyIterator.remove();//this works and removes ele from map
 //                phoneBook.remove("Jim");//remove element from map is not allowed
 //                phoneBook.put("Bob",121212121L);
